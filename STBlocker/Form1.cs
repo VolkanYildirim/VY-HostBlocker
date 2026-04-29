@@ -75,7 +75,7 @@ namespace STBlocker {
 
             } else {
                 if( datePicker.Value <= DateTime.Now) {
-                    MessageBox.Show("Şu andan ileri bir tarih seçin");
+                    MessageBox.Show("Şimdiden ileri bir tarih seçin");
                     return;
                 }
 
